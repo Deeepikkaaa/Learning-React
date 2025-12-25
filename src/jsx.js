@@ -13,8 +13,7 @@ export default function ProfileCard(){
             <div>
                 <ul>
                     <li>My fav hobbies</li>
-                    <ld>sports</ld>
-                    <ld>games</ld>
+                    <li>game</li>
                 </ul>
             </div>
         </div>

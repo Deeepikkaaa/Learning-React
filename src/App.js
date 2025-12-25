@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import MyFirstComponent from './jsx';
 import GreetingCard from './props';
+import Counter from './usestate';
+import LikeCounter from './likescounter';
 var  count=0;
 var inputText='';
 const isAdmin=false;
@@ -29,6 +31,8 @@ function App() {
   }
   return (
     <>
+    <Counter/>
+    <LikeCounter/>
     <div>
       <MyFirstComponent/>
     </div>
